@@ -1,0 +1,114 @@
+/*RESET BASICO*/
+*{
+    margin: ;
+    padding: ;
+    box-sizing: ;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+        background: linear-gradient(135deg,#30503a,#70947d);
+        color:rgb(202, 214, 204) ;
+        padding: 30px;
+}
+
+h1{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(214, 218, 216);
+    font-weight: bold;
+}
+.bucks{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0% auto;
+    display: block;
+    background:  linear-gradient(135deg,#30503a,#70947d);;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.479);
+}
+
+.section{
+    background-color: #2f493727;
+    padding: 30px;
+    border-radius: 5%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.377);
+    margin-bottom: 40px;
+      }
+
+      .section p{
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+        line-height: 1.6;
+        margin-bottom: 15px;
+        color: rgb(203, 219, 213);
+        text-align: justify;
+        font-style: italic;
+      }
+table{
+width: 100%;
+border-collapse: collapse;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+th,td{
+    padding: 12px;
+    text-align:left;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+th{
+    background-color: rgb(81, 112, 89);
+    color: rgb(0, 0, 0);
+}
+
+tr:nth-child(even){
+    background-color: #30503a
+    /* linhas pares */
+}
+
+tr:nth-child(even){
+    background-color: #3c6148af;
+    /* linhas impares */
+}
+
+form{
+   margin-top: 20px;
+   color: rgb(0, 0, 0);
+   margin-left: 20px;
+   background-color: rgb(49, 107, 78); 
+   padding: 30px;
+   border-radius: 10px;
+   width: 100%;
+   max-width: 400px;
+   margin: 0 auto;
+   box-shadow: 0 0 10 
+   rgba(0, 0, 0, 0.425);
+}
+
+label{
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input [type="text"], input[ type="email"], input[type="password"]{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(24, 23, 23);
+}
+
+input[type="submit"]{
+        transition: all linear 0.3s;
+        background-color: rgb(75, 55, 55);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-weight: bold;
+}
+    input[type="submit"]:houver{
+        background-color: rgb(131, 97, 34);
+    }
