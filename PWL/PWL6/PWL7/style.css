@@ -1,0 +1,71 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: rgb(218, 223, 233);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: color rgba(75, 72, 72, 0.514) 0,0,9;
+}
+
+.container{
+    display: flex;
+    background-color: rgb(218, 223, 233);
+    width:  80%;
+    margin: auto;
+    gap: 10px;
+   
+   
+}
+
+.card{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.card h2{
+    font-size: 1.2em;
+    color: #000000;
+    margin: 10px 0;
+}
+
+.card p{
+    font-size: 0.9em;
+    color: #666;
+    line-height: 1.4;
+}
+
+.card span{
+    display: block;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #2fb667;
+    margin: 10px 0;
+}
+
+button{
+    background-color: rgb(69, 71, 71);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(42, 39, 58);
+}
+
