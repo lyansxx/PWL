@@ -22,17 +22,29 @@ header{
 
 .container{
     display: flex;
-    background-color: rgb(218, 223, 233);
-    width:  80%;
+    background-color: rgba(234, 240, 252, 0.856);
+    width:  100%;
     margin: auto;
     gap: 10px;
+    
    
    
 }
 
+
 .card{
     max-width: 100%;
     height: auto;
+    border-radius: 5px;
+    background-color: rgb(161, 156, 156);
+    margin: 20px;
+    padding: 15px;
+   
+}
+
+.card img{
+    height: 320px;
+    width: 320px;
     border-radius: 5px;
 }
 
@@ -46,13 +58,15 @@ header{
     font-size: 0.9em;
     color: #666;
     line-height: 1.4;
+    height: 100px;
+    overflow-y: auto;
 }
 
 .card span{
     display: block;
     font-size: 1.1em;
     font-weight: bold;
-    color: #2fb667;
+    color: #40fd8f;
     margin: 10px 0;
 }
 
