@@ -1,0 +1,160 @@
+@import url('variable.css');
+@import url('reset.css');
+
+/* ------------------------------------------------------------------------------------------ */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--color-DarkPurple);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: var(--color-DarkPurple);
+    color: var(--text-color);
+}
+
+header .logo {
+    width: 150px;
+}
+
+header nav {
+    display: flex;
+    gap: 30px;
+}
+
+header span {
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+header span:hover {
+    color: var(--color-Lilas);
+}
+
+header button {
+    background-color: var(--text-color);
+    color: var(--color-DarkPurple);
+    padding: 12px 40px;
+    font-size: 1.4rem;
+    border-radius: 25px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+header button:hover {
+    background-color: var(--color-Lilas);
+    color: var(--text-color);
+}
+
+/* Container Principal */
+.container-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "main img";
+    gap: 20px;
+    padding: 60px 40px;
+    background-image: linear-gradient(to right, #1f0539, var(--color-Purple)); 
+    border-radius: 30px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.container-grid main {
+    grid-area: main;
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 500px;
+}
+
+.container-grid main span {
+    background-color: var(--color-Lilas);
+    color: var(--color-DarkPurple);
+    font-size: 2rem;
+    padding: 12px 25px;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.container-grid h2 {
+    font-size: 3rem;
+    margin: 20px 0;
+    line-height: 1.3;
+}
+
+.container-grid p {
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.container-grid button {
+    background-color: var(--text-color);
+    color: var(--color-DarkPurple);
+    padding: 15px 35px;
+    font-size: 1.8rem;
+    width: auto;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.container-grid button a {
+    color: var(--color-DarkPurple);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container-grid button:hover {
+    background-color: var(--color-Lilas);
+    color: var(--text-color);
+}
+
+.container-grid img {
+    grid-area: img;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+/* Rodapé */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--color-DarkPurple);
+    color: var(--text-color);
+}
+
+footer a {
+    color: var(--text-color);
+    font-size: 1.6rem;
+    text-decoration: none;
+    margin: 0 50px;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: var(--color-Lilas);
+}
